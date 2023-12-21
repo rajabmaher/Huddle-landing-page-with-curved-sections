@@ -2,7 +2,6 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    border: 2px solid;
 } 
 body {
     font-family: 'Open Sans', sans-serif;
@@ -119,7 +118,7 @@ body {
 .sectionOne > .topImg {
     width: 100%;
     background-image: url("./images/bg-section-top-desktop-1.svg");
-    height: 130px;
+    height: 110px;
 }
 .sectionOne > .bottomImg {
     width: 100%;
@@ -296,7 +295,7 @@ body {
 .footerTop {
     width: 100%;
     background-image: url("./images/bg-footer-top-desktop.svg");
-    height: 160px;
+    height: 150px;
 }
 .theTable {
     width: 100%;
@@ -353,10 +352,8 @@ body {
 }
 .theTable > .rightside > form {
     margin-top: 30px;
-    border: 2px solid;
-    display: flex;
-}
-.theTable > .rightside > .Subscribe {
+    display: flex;}
+form > .Subscribe {
     height: 50px;
     display: flex;
     align-items: center;
@@ -368,7 +365,7 @@ form > .Subscribe > #email {
     flex: 1;
     min-width: 350px;
     border-radius: 5px;
-    padding: 12.5px;
+    padding: 12.7px;
     font-family: 'Open Sans', sans-serif;
 }
 form >.Subscribe > .button {
@@ -379,22 +376,25 @@ form >.Subscribe > .button {
     border-radius: 5px;
     font-weight: 700;
     font-size: 14px;
+    border: none;
+}
+form >.Subscribe > .button:hover {
+    background-color: hsl(321, 100%, 78%);
+    cursor: -webkit-grab; cursor: grab;
 }
 .Social-media {
     display: flex;
+    align-items: center;
     gap: 20px;
     margin-top: 20px;
 }
-.Social-media > img {
-    width: 35px;
-    color: blueviolet;
-    height: 35px;
-}
+
 .attribution { 
-    font-size: 11px; 
+    font-size: 13px; 
     text-align: center; 
     background-color: hsl(192, 100%, 9%);
     color: #ffffff;
+    padding: 25px 0;
 }
 .attribution a { 
     color: hsl(322, 100%, 66%); 
@@ -424,23 +424,23 @@ form >.Subscribe > .button {
     }
     .sectionOne > .topImg {
         background-image: url("./images/bg-section-top-mobile-1.svg");
-        height: 115px;
+        height: 110px;
     }
     .sectionOne > .bottomImg {
         background-image: url("./images/bg-section-bottom-mobile-1.svg");
-        height: 56px;
+        height: 52px;
     }
     .sectionThree > .topImg {
         background-image: url("./images/bg-section-top-mobile-2.svg");
-        height: 108px;
+        height: 102px;
     }
     .sectionThree > .bottomImg {
         background-image: url("./images/bg-section-bottom-mobile-2.svg");
-        height: 106px;
+        height: 101px;
     }
     .footerTop {
         background-image: url("./images/bg-footer-top-mobile.svg");
-        height: 55px;
+        height: 53px;
     }
     .theTable > .leftSide {
         margin: 0 20px;
