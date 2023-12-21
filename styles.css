@@ -72,6 +72,7 @@ body {
     background-color: hsl(322, 100%, 66%);
     border-radius: 35px;
     margin-bottom: 30px;
+    border: none;
 }
 .Entro > button:hover {
     background-color: hsl(321, 100%, 78%);
